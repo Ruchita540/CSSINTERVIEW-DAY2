@@ -1,0 +1,41 @@
+div {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50px;
+    border: 5px solid red;
+    float: left;
+  }
+  .index{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* transform: rotate(45deg); */
+    border: 2px solid red;
+    position:absolute;
+    margin-top: 70px;
+    /* transform: rotate(90deg); */
+    
+  }
+  .index:hover{
+    /* animation-delay: 3s; */
+    /* transition: all 2s; */
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-delay: 2s;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+.box1{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    margin-top: 200px;
+  }
